@@ -36,7 +36,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure subscription 1(5)(2e9dd495-6766-43fa-aa1e-e6683014ceeb)'
+    azureSubscription: 'Azure subscription 1(3)(2e9dd495-6766-43fa-aa1e-e6683014ceeb)'
     appType: 'webApp'
     WebAppName: 'fakrhi'
     packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
