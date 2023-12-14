@@ -43,4 +43,4 @@ steps:
     azureSubscription: 'Azure subscription 1(6)(2e9dd495-6766-43fa-aa1e-e6683014ceeb)'
     appType: 'webApp'
     WebAppName: 'fakrhi'
-    packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip''
+    packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
